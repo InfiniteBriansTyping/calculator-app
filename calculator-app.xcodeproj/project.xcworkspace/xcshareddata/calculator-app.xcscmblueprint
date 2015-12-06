@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A1174AB172237020958AF7C7660DD178F3739BBC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A1174AB172237020958AF7C7660DD178F3739BBC" : 0,
+    "9A65BCE6FCE5CEEC2D0DCBAFE8D2C0D74EB2A938" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F356CDEA-6BC7-4D0D-BF97-FA1E99DBC4C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A1174AB172237020958AF7C7660DD178F3739BBC" : "calculator-app\/",
+    "9A65BCE6FCE5CEEC2D0DCBAFE8D2C0D74EB2A938" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "calculator-app",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "calculator-app.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/InfiniteBriansTyping\/code.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A65BCE6FCE5CEEC2D0DCBAFE8D2C0D74EB2A938"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:InfiniteBriansTyping\/calculator-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1174AB172237020958AF7C7660DD178F3739BBC"
+    }
+  ]
+}

@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         case Multiply = "*"
         case Subtract = "-"
         case Add = "+"
+        case Clear = "Back to Zero"
         case Empty = "Empty"
     }
     
@@ -71,13 +72,25 @@ class ViewController: UIViewController {
     @IBAction func onEqualsPressed(sender: AnyObject) {
         processOperation(currentOperation)
     }
+
+    @IBAction func onClearPressed(sender: AnyObject) {
+            result = "0.0"
+            runningNumber = ""
+            leftValString = ""
+            rightValString = ""
+            currentOperation = Operation.Empty
+            outputLbl.text = "0.0"
+            playSound()
+    }
+    
     
     func processOperation(op: Operation) {
         playSound()
         
         if currentOperation != Operation.Empty {
-            //Run Math
             
+            //Run Math
+        
             if runningNumber != "" {
                 
                 rightValString = runningNumber
@@ -95,13 +108,15 @@ class ViewController: UIViewController {
                 
                 leftValString = result
                 outputLbl.text = result
+            
             }
-
             
             currentOperation = op
             
-        } else {
+        }  else {
+            
             //This is the first time it's been pressed
+            
             leftValString = runningNumber
             runningNumber = ""
             currentOperation = op

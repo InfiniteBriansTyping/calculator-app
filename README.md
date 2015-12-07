@@ -1,2 +1,2 @@
 # calculator-app
-Simple working calculator for iOS
+Simple  calculator for iOS

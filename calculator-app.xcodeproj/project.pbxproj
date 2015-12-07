@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9C37C391C1506AA00E83AB2 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9C37C381C1506AA00E83AB2 /* btn.wav */; };
 		E9D088981C0FC21700ED6191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D088971C0FC21700ED6191 /* AppDelegate.swift */; };
 		E9D0889A1C0FC21700ED6191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D088991C0FC21700ED6191 /* ViewController.swift */; };
 		E9D0889D1C0FC21700ED6191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D0889B1C0FC21700ED6191 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9C37C381C1506AA00E83AB2 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		E9D088941C0FC21600ED6191 /* calculator-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calculator-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D088971C0FC21700ED6191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D088991C0FC21700ED6191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D088A91C0FDDC000ED6191 /* Consolas.ttf */,
+				E9C37C381C1506AA00E83AB2 /* btn.wav */,
 				E9D088971C0FC21700ED6191 /* AppDelegate.swift */,
 				E9D088991C0FC21700ED6191 /* ViewController.swift */,
 				E9D0889B1C0FC21700ED6191 /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C37C391C1506AA00E83AB2 /* btn.wav in Resources */,
 				E9D088A21C0FC21700ED6191 /* LaunchScreen.storyboard in Resources */,
 				E9D0889F1C0FC21700ED6191 /* Assets.xcassets in Resources */,
 				E9D088AA1C0FDDC000ED6191 /* Consolas.ttf in Resources */,
@@ -291,6 +295,7 @@
 				E9D088A81C0FC21700ED6191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

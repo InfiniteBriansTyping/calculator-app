@@ -23,13 +23,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg-1" translatesAutoresizingMaskIntoConstraints="NO" id="OkC-Ua-Zss" userLabel="background">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="OkC-Ua-Zss" userLabel="background">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OkC-Ua-Zss" secondAttribute="height" multiplier="1:1" id="Fbk-UA-6wf"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground-1" translatesAutoresizingMaskIntoConstraints="NO" id="9Ne-ia-lu2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="9Ne-ia-lu2">
                                 <rect key="frame" x="0.0" y="535" width="600" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="8sQ-Pq-u6U"/>
@@ -38,14 +38,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3E5-2x-GV5" userLabel="calculatorframe">
                                 <rect key="frame" x="158" y="91" width="284" height="459"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter-1" translatesAutoresizingMaskIntoConstraints="NO" id="cRa-CM-cv7">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="cRa-CM-cv7">
                                         <rect key="frame" x="17" y="0.0" width="251" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="79" id="1xo-fG-OaN"/>
                                             <constraint firstAttribute="width" constant="251" id="dhC-FE-K2Y"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel-1" translatesAutoresizingMaskIntoConstraints="NO" id="B8l-Xx-Pth">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="B8l-Xx-Pth">
                                         <rect key="frame" x="0.0" y="79" width="284" height="380"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="284" id="Kji-IL-B5O"/>
@@ -300,14 +300,14 @@
         <image name="7" width="111" height="111"/>
         <image name="8" width="111" height="111"/>
         <image name="9" width="111" height="111"/>
-        <image name="backpanel-1" width="620" height="938"/>
-        <image name="counter-1" width="516" height="133"/>
+        <image name="backpanel" width="620" height="938"/>
+        <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="111"/>
         <image name="equals" width="111" height="111"/>
-        <image name="ground-1" width="888" height="72"/>
+        <image name="ground" width="888" height="72"/>
         <image name="minus" width="111" height="111"/>
         <image name="plus" width="111" height="111"/>
-        <image name="space-bg-1" width="988" height="946"/>
+        <image name="space-bg" width="988" height="946"/>
         <image name="times" width="111" height="111"/>
     </resources>
 </document>
